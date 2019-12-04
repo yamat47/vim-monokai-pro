@@ -63,6 +63,10 @@ hi Todo ctermfg=231 ctermbg=NONE cterm=inverse,bold guifg=#fcfcfa guibg=NONE gui
 hi Type ctermfg=116 ctermbg=NONE cterm=NONE guifg=#78dce8 guibg=NONE gui=italic
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 
+if get(g:, "monokai_pro#background") is# "transparent"
+  hi Normal guibg=NONE ctermbg=NONE
+endif
+
 " Color for custom group
 " hi EndColons ctermfg=246 ctermbg=NONE cterm=NONE guifg=#939293 guibg=NONE gui=NONE
 " hi link Braces EndColons
