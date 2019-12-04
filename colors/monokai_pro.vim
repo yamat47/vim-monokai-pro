@@ -65,6 +65,7 @@ hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gu
 
 if get(g:, "monokai_pro#background") is# "transparent"
   hi Normal guibg=NONE ctermbg=NONE
+  hi NonText guibg=NONE ctermbg=NONE
 endif
 
 " Color for custom group
